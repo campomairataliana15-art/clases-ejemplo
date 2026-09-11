@@ -53,7 +53,7 @@ class Propietario{
         this.mascota.push(nuevamascota)
     }
     mostrarinformacion(){
-        console.log("mascota: " + this.mascota[0].nombre + " propietario: " + this.nombrePropietario)
+        console.log("mascota: " + this.mascota[0].nombre  + " propietario: " + this.nombrePropietario)
     }
 }
 let colmillo = new Animal("colmillo", "pitbul", "perro", 12)
